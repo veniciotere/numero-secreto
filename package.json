@@ -1,0 +1,17 @@
+{
+  "name": "live_0",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Vinicios.Marques",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.2.0",
+    "typescript": "^7.0.2"
+  }
+}
