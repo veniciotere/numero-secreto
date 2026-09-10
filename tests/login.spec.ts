@@ -4,9 +4,12 @@ test('the user login with success', async ( {page}  ) =>{
     await page.goto('https://www.saucedemo.com/');
     await expect(page).toHaveTitle('Swag Labs');
 
+<<<<<<< HEAD
 TESTE
 
 
+=======
+>>>>>>> parent of d63106c (First Commit)
     await page.locator('[data-test="username"]').fill('standard_user');
     await page.locator('[data-test="password"]').fill('secret_sauce');
 
